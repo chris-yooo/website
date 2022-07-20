@@ -1,3 +1,66 @@
+body {
+  background-color: #ffffff;
+  line-height: 1.5;
+  font-family: sans-serif;
+}
+
+header {
+  background-color: rgb(174, 206, 235);
+}
+
 h1 {
   color: red;
+  text-align: center;
+  margin: 10px;
+}
+
+h2 {
+  color: rgb(255, 0, 149);
+  text-align: center;
+  margin: 10px 10px 30px 10px;
+}
+
+h3 {
+  background-color: rgb(148, 194, 235);
+}
+
+h4 {
+  background-color: aliceblue;
+}
+
+h5 {
+  background-color: rgb(32, 103, 165);
+}
+
+nav {
+  gap: 10px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.button {
+  background-color: rgb(148, 194, 235);
+  padding: 3px 8px;
+  border-radius: 90px;
+  text-decoration: none;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-items: center;
+  flex-direction: column;
+}
+
+p {
+  background-color: aliceblue;
+  margin: 20px;
+}
+
+.footer-text {
+  background-color: rgb(77, 113, 145);
 }
